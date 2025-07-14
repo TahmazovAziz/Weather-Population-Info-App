@@ -16,9 +16,14 @@
     -moz-box-shadow: -3px 8px 27px 0px rgba(34, 60, 80, 0.2);
     box-shadow: -3px 8px 27px 0px rgba(34, 60, 80, 0.2);
 }
+.container__info.dark{
+  background: #000;
+  color: #fff;
+}
+
+
 .weather__icon{
   img{
-
     border-radius: 10px;
   }
 }

@@ -6,7 +6,9 @@
 body{
   font-family: "Open Sans", sans-serif;
 }
-
+h1.dark{
+  color: #ffffff;
+}
 .container{
   max-width: 400px;
   margin:0 auto;
@@ -15,7 +17,7 @@ h1{
   text-align: center;
 }
 
-.container__header{
+.container__search{
   display: flex;
   align-items: center;
   justify-content: space-between;

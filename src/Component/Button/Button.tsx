@@ -1,11 +1,12 @@
 interface ButtonInterface{
-    children:string;
+    children: React.ReactNode;
+    className?:string;
     Click:()=>void;
 }
-export default function Button({children, Click}:ButtonInterface){
+export default function Button({children, Click, className}:ButtonInterface){
     return(
         <div className="container__button">
-            <button onClick={Click}>{children}</button>
+            <button className={className} onClick={Click}>{children}</button>
         </div>
     )
 }

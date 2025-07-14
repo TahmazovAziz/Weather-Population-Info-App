@@ -11,3 +11,14 @@ button:hover{
     background: rgb(121, 121, 206);
     cursor: pointer;
 }
+
+.icon-button{
+  background: none;
+  position: absolute;
+  top: 2px;
+  right: 2px;
+}
+
+.icon-button:hover{
+    background: none;
+}
